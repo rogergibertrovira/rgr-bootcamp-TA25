@@ -3,10 +3,12 @@ package com.rgibert.ta25_e4.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.rgibert.ta25_e4.dao.IPeliculaDAO;
 import com.rgibert.ta25_e4.dto.Pelicula;
 
+@Service
 public class PeliculaServiceImp implements IPeliculaService {
 
 	@Autowired
